@@ -25,8 +25,10 @@
 The following images show the web application's appearance and functionality:
 
 Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.
+![11-express-homework-demo-01](https://user-images.githubusercontent.com/47282257/165008942-e8faed7c-30bb-46e8-9f23-bbdfe3794201.png)
 
 Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.
+![11-express-homework-demo-02](https://user-images.githubusercontent.com/47282257/165008953-42c48145-9104-4c44-9b54-2071359caca3.png)
 
 ## Getting Started
 
