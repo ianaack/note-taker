@@ -4,7 +4,7 @@ const router = express.Router();
 // creates a random id
 const crypto = require("crypto");
 // database Class object
-const database = require("../../data/database");
+const database = require("../data/database");
 
 // route to get notes
 router.get("/api/notes", async function (req, res) {
