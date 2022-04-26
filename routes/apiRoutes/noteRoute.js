@@ -3,7 +3,12 @@ const express = require("express");
 const router = require("express").Router();
 const fs = require("fs");
 // allows file to use database.js file in the lib folder
-const { findById, createNewNote, validateNote } = require("../../lib/database");
+const {
+  findById,
+  createNewNote,
+  validateNote,
+  deleteNote,
+} = require("../../lib/database");
 const { note } = require("../../data/db.json");
 
 // returns the JSON formatted database
@@ -37,6 +42,9 @@ router.post("/notes", (req, res) => {
   }
 });
 
-router.delete("/notes/:id", (req, res) => {});
+router.delete("/notes/:id", (req, res) => {
+  let newNoteArray = deleteNote(req.params.id, note);
+  res.json(newNoteArray);
+});
 
 module.exports = router;
