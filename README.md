@@ -1,6 +1,6 @@
 # Note Taker - Express
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Netlify Status](https://api.netlify.com/api/v1/badges/6e1ccdc5-d0b8-480f-9d3d-27af9539a175/deploy-status)](https://app.netlify.com/sites/ianaack-note-taker/deploys)
 
 ## Description
 
