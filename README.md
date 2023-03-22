@@ -7,7 +7,7 @@
 Note Taker is an application that can be used to write and save notes. This application uses an Express.js back end, and saves and retrieves note data from a JSON file.
 
 This application can either be deployed locally by running a localhost server on your machine, or can be accessed through the following link:
-https://ianaack-note-taker.herokuapp.com/
+[Note Taker](https://ianaack-note-taker.netlify.app/)
 
 ## Table of Contents
 
